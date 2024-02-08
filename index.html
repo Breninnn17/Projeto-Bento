@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Construtora Jose Silva</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header id="cabecario" class="navbar navbar-expand-lg sticky-top p-3">
+        <div class="container">
+            <h1 class="navbar-brand m-0 "><img src="./Capturar-removebg.png" alt="" height="100px"></h1>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">                   
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold me-1">
+                        <a href="#sobre" class="nav-link active">
+                            <i class="bi bi-book"></i>
+                            Sobre</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#cafe-da-manha" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Casas
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bool me-1"></li>
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-telephone me-1"></i>
+                            Fale conosco</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>      
+    </header>
+    <div id="carosel">
+        <div id="carousel-exemplo"class="carousel  slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div data-bs-interval="2500" class="carousel-item active">
+                        <img class="d-block w-100 " src="./Capa casa1.jpg" alt="Primeira casa" width="50vw">
+                    </div>
+                    <div data-bs-interval="2500" class="carousel-item">
+                        <img class="d-block w-100 " src="./Capa casa 2 .jpg" alt="Segunda casa" width="50vw">
+                    </div>
+                    <div data-bs-interval="2500" class="carousel-item">
+                        <img class="d-block w-100 " src="./capa casa 3.jpg" alt="Terceira casa"  width="50vw">
+                </div>
+                <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button  data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button"data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+                    <button type="button"data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                    <button type="button"data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+                </div>
+        </div>  
+            <div data-bs-spy="scroll" data-bs-target="cabecario">
+            <section id="sobre">
+                <div class="pt-2 pb-2">
+                    <div class="container">
+                        <div class="row">                           
+                        <div class="col-md-5">
+                            <h1 class="section-title" class="">Sobre Nos</h1>
+                                <img src="./obra.jpg" class="d-block w-100 rounded" alt="">
+                        </div>
+                        <div class="col-md-7">
+                            <h2 class="section-title mt-4" >Construcões</h2>
+                            <b>Nosso processo construtivo se consiste primeiramente na escolha certa do lote, fazemos uma severa busca na cidade para conseguirmos trazer uma ótima localização para a casa, tendo assim uma valorização maior e trazendo uma melhor qualidade para os futuros moradores. Após isso partimos para o projeto, algo muito detalhado para que a casa combine com o lote e com o bairro, trazendo os melhores projetos e conseguindo aproveitar ao máximo o lote, nosso processo executivo também é um pilar extremamente importante, portanto temos nosso suporte técnico que faz o acompanhamento diário da obra, garantindo qualidade e segurança para nossos clientes.</b>
+                            <br> 
+                            <br>
+                            <h3 class="section-title" >Jose Silva</h3> <br>
+                            <b>Pai empresário e fã do ramo imobiliário e filho técnico em edificações e estudante de engenharia civil, ambos amantes do mercado imobiliário, fundam a construtora visando alcançar os clientes que querer realizar o sonho da casa própria, com muita qualidade e segurança.
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </section>
+        <section id="cafe-da-manha">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mt-3 mb-3">Opcões de casas </h2>
+                </div>
+            </div>
+            <div class="row">
+                <aside class="col-md-2">
+                    <nav class="nav nav-pills flex-column nav-cafe-da-manha">
+                        <button type="button"  data-bs-toggle="tab" data-bs-target="#Bebidas" class="fw-bold text-start mt-2 nav-link text-colored active">Rua takero kurotsu 122 Casa Branca Suzano-SP</button>
+                        <button type="button"  data-bs-toggle="tab" data-bs-target="#Frutas" class="fw-bold text-start mt-2 nav-link text-colored ">Rua Takero Kurotsu 126 Casa Branca Suzano-SP</button>
+                        <button type="button"  data-bs-toggle="tab" data-bs-target="#Paês" class="fw-bold text-start mt-2 nav-link text-colored ">Rua Eduardo Carlos Ramos, jardim das florer suzano-SP</button>                        
+                    </nav>
+                </aside>
+                <div class="col-md-10">
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="Bebidas">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./Capa casa1.jpg" alt="" >
+                                    <h5 class="fw-bold">Area externa</h5>
+                                    <p>Area externa pronta</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./fachada casa 1.jpg" alt="" >
+                                    <h5 class="fw-bold">Entrada</h5>
+                                    <p>Fachada pronta</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./Casa 1 .jpg" alt="" >
+                                    <h5 class="fw-bold">Area externa</h5>
+                                    <p>Area externa da casa em formato 3D</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./fachada casa 1 real.jpg" alt="" >
+                                    <h5 class="fw-bold">Entrada</h5>
+                                    <p>Fachada em 3D  </p>
+
+                                    <h1>VENDIDA</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="Frutas">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./Capa casa 2 .jpg">
+                                    <h5 class="fw-bold">Fachada</h5>
+                                    <p>Fachada em 3D</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./casa 2 fachada.jpg" alt="">
+                                    <h5 class="fw-bold">Fachada</h5>
+                                    <p>Fachada Real</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./casa 2 portao.jpg" alt="">
+                                    <h5 class="fw-bold">Entrada da casa</h5>
+                                    <p>Portao </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./Casa 2 sala .jpg" alt="">
+                                    <h5 class="fw-bold">Sala</h5>
+                                    <p>Sala da casa</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./casa 2 churrasqueira.jpg" alt="">
+                                    <h5 class="fw-bold">Area de lazer</h5>
+                                    <p>churrasqueira</p>
+
+                                    <h1>VENDIDA</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="Paês">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./capa casa 3 (1).jpg" alt="">
+                                    <h5 class="fw-bold">Area Externa Projeto</h5>
+                                    <p></p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./fachada casa 3.jpg" alt="">
+                                    <h5 class="fw-bold"> Fachada Projeto</h5>
+                                    <p></p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./corredor casa 3.jpg" alt="">
+                                    <h5 class="fw-bold"> Corredor sentido churrasqueira </h5>
+                                    <p></p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="coredor2 casa 3 .jpg" alt="">
+                                    <h5 class="fw-bold"> Corredor sentido entrada </h5>
+                                    <p></p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./vista superior casa 3.jpg" alt="">
+                                    <h5 class="fw-bold"> Vista superior do corredor </h5>
+                                    <p></p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./lavanderia casa 3.jpg" alt="">
+                                    <h5 class="fw-bold"> Lavanderia </h5>
+                                    <p></p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./churras casa 3.jpg" alt="">
+                                    <h5 class="fw-bold"> Area de lazer com churrasqueira</h5>
+                                    <p></p>
+
+                                    <h2>Vende-se</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pb-5 pt-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale Conosco</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Nome</label>
+                                <input type="text" id="nome" class="form-control" required >
+                            </div>
+                            <div class="mb-3">
+                                <label for="E-mail"  class="form-label fw-bold text-colored">E-mail</label>
+                                <input type="email" id="email" class="form-control" required >
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone"  class="form-label fw-bold text-colored">Telefone</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem"  class="form-label fw-bold text-colored">Fale com nosco</label>
+                                <textarea class="form-control" id="mensagem"></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button> 
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">Redes Sociais</h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="https://www.instagram.com/josesilvaconstrutora/">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="https://www.facebook.com/josesilvaconstrutora?mibextid=ZbWKwL">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="https://wa.me/+5511995406682">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">Endereço</h3>
+                            <p>
+                                Rua Miguel Dos Santos 353, Casa Branca, Suzano-Sp
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
